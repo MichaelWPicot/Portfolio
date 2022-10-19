@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Nanum+Gothic&family=Roboto:wght@700&display=swap');
+
+body {
+  background: #F4DEC8;
+  color: #49274A;
+  text-align: left;
+}
+ header {
+  background: #94618E;
+  margin: 0;
+  color: #F8EEE7;
+  height:125px;
+  text-align: center;
+ }
+ footer {
+  position: absolute;
+  bottom:0;
+  background: #94618E;
+  margin-top: 75px;
+  margin-bottom: 0px;
+  color: #F8EEE7;
+  height:75px;
+  width:100%;
+  text-align: center;
+ }
+.images {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.header{
+  margin:0;
+  padding: 0;
+ }
+ nav{
+  margin:0;
+  padding: 0;
+ }
+ .footer{
+  margin:0;
+  padding: 0;
+ }
+.Content {
+
+  margin-left: 20px;
+  margin-top: 20px;
+}
+main{
+  padding-left: 20%;
+  padding-right:20%
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:20%
+}
+h1 {
+  font-family: 'Abel', sans-serif;
+  font-size: 64px;
+
+  margin-top: 0;
+}
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+}
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+}
+p, li {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 20px;
+  margin:0
+}
+
+ul, ol{
+  padding-left: 0;
+  list-style-position: inside;
+}
+a:link { 
+  color: #F8EEE7; 
+} 
+a:visited { 
+  color: gray; 
+} 
+a:link:hover { 
+  color: blue; 
+} 
+a:visited:hover 
+{ 
+  color: purple; 
+}
